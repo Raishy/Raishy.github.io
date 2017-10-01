@@ -1,16 +1,168 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>HelloWorld</title>
-  <base href="/">
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Tails' Workshop</title>
+    <link type="text/css" href="css/Index.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+  </head>
+  <body class ="notready">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
-</head>
-<body>
-  <app-root></app-root>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
-<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+    <section class="loadingpage">
+      <div class="loadingtext"><p>Loading<span>.</span><span>.</span><span>.</span></p></div>
+      <div class="loadIcon"></div>
+    </section>
+
+    <div class="lightbox showpicture">
+        <p>Click to close</p>
+        <div class="pictureDisplay">
+          <img src="" class="myImage" alt"full image">
+        </div>
+    </div>
+
+    <section class="wrapper2">
+      <!-- VIDEO -->
+      <section class="panel1">
+        <section class = "front">
+          <div class="backDrop">
+            <div class="introTextContainer">
+              <p>HELLO</p>
+            </div>
+            <video class="vid" autoplay="autoplay" loop="loop">
+              <source src="/Source/background10.webm" type="video/mp4">
+            </video>
+          </div>
+        </section>
+      </section>
+
+
+      <section class="panel2">
+      <!--  MOVING BACKGROUND -->
+        <section class="Back">
+            <div class = "BackPic"></div>
+            <div class = "BackPic2"></div>
+        </section>
+
+        <!-- INTRODUCTION -->
+        <header class="Header">
+          <section class="block1">
+            <div class="triangle"></div>
+            <div class="portrait"></div><!--
+         --><div class="aboutMe"><!--
+         --><p>My Name is Joshua chau and this is my <strike>resume in website form</strike> website.</p>
+            <p>	&darr; Projects below &darr;</p>
+            </div>
+          </section>
+        </header>
+
+        <div class = "fill1"></div>
+
+        <!-- FIRST PROJ -->
+        <section class="row-container">
+          <div class="row-1">
+            <div class="p1Title">
+              <h2>Ethereum-Slots</h2>
+            </div><!--
+            --><div class="col-1">          
+            </div><!--
+            --><div class="col-2">          
+            </div><!--
+            --><div class="col-3">              
+            </div>
+          </div>
+        </section>
+        
+        <section class="project1">
+          <section class="flip">
+            <div class="card">
+              <div class="text">
+                <p>The program allows the user to play <!--
+                -->slots and gamble their cryptocurrency. <!-- 
+                -->The java application only works with the Ethereum <!--
+                -->Testrpc and a loose ether account with Metamask on the <!--
+              -->localhost. This program was created by a team of 4 students. <!--
+            --><br> <a href="https://github.com/Raishy/Ethereum-Slots" target="_blank">More Info</a></p>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <div class = "fill1"></div>
+
+        <!-- SECOND PROJ -->
+        <section class="wrap2">
+          <section class="col-container">
+            <div class="col1">
+                <div class="title2">
+                  <p>Unity-AstronautGame</p>
+                </div>
+                <div class="t2Text">
+                  <p>This game was created using the Unity Game Engine and by a team of 5 students. Most models were made using Blender and most of the textures are from the Unity asset store. This game is not finished and the "end" of the demo is reaching the top of a building with a modeled dragon on top of it.</p>
+                  <p class="link1"><a href="https://github.com/Raishy/AstronautGame" target="_blank">More Info</a></p>
+                </div>
+              <div class="row1"> 
+              </div><!--
+              --><div class="row2">   
+              </div><!--
+              --><div class="row3">
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <div class = "fill1"></div>
+
+        <!-- THIRD PROJ -->
+        <section class="container3">
+          <div class= "a1">
+            <div class="t3Text">
+              <p>This Java program runs generates a new terrain with half of the world in light and the other half in darkness every time it runs.</p>
+              <a href="https://github.com/Raishy/LWJGL-Minecraft" target="_blank">More Info</a>
+            </div>
+            <div class="a2">
+              <div class="b1">
+              </div><!--
+              --><div class="b2">
+              </div><!--
+              --><div class="b3">             
+              </div>
+              <div class="title3">
+                  <p>Minecraft Terrain Generator</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <div class = "fill1"></div>
+        <!-- Contact -->
+        <section class="contactContainer">
+          <section class="overelements">
+            <section class="subelements">
+              <section class="elements">
+                <div class="contactText">
+                  <p>Find me at</p>
+                </div>
+                <div class="contactlist">
+                  <ul>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/joshua-chau-87a695140/">LinkedIn</a></li>
+                    <li><a target="_blank" href="https://github.com/Raishy">GitHub</a></li>
+                    <li><a href="mailto:JoshuaCH4@outlook.com">JoshuaCh4@outlook.com</a></li>
+                  </ul>
+                </div>
+              </section>
+            </section>
+          </section>
+        </section>
+
+      </section>
+    </section>
+
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/jquery.visible.js"></script>
+  <script src="js/Index.js"></script>
+
 </html>
