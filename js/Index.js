@@ -1,8 +1,14 @@
 // LOAD PAGE WHEN READY------------------------------------
+
 window.addEventListener("load",function(){
 	$('.loadingpage').addClass("bye");
 	$("body").removeClass("notready");
 });
+
+function ignore(){
+	ws=$('.notpressed').removeClass('notpressed');
+	console.log('pushed');
+}
 
 function toggleFlip(){
 	var test =  $('.flip');
@@ -114,7 +120,8 @@ $(window).scroll(function(){
 		});
 
 		//Introduction--------------------------------------------------
-		if(wScroll>(winHeight*0.2)){
+		console.log("winHeight: "+winHeight+"   wScroll: "+wScroll +"  triggerH: "+(winHeight*0.10) );
+		if(wScroll>(winHeight*0.05)){
 			head.addClass('show');
 		}else{
 			head.removeClass('show');
