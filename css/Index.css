@@ -770,11 +770,10 @@ header .block1 .portrait {
   color: white;
   cursor: pointer;
   border-radius: 28px;
-  border: 1px solid #18ab29;
+  border: 1px solid #942911;
   padding: 16px 31px;
   text-decoration: none;
-  background-color: #44c767;
-  background-color: #44c767;
+  background: linear-gradient(to bottom, #CF1C3D 5%, #9C0606);
 }
 
 #warning-message {
