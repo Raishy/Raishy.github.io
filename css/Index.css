@@ -115,9 +115,9 @@ body img {
   top: 50%;
   transform: translate(-50%, -50%);
   background-color: #000000;
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 51%, cover;
 }
 
 .introTextContainer {
@@ -320,6 +320,14 @@ header .block1 .portrait {
   text-decoration: none;
 }
 
+.card .text a:link {
+  color: #00F7FF;
+}
+
+.card .text a:visited {
+  color: #00F7FF;
+}
+
 .card .text a:hover {
   font-weight: bold;
   color: blue;
@@ -376,6 +384,14 @@ header .block1 .portrait {
 
 .t2Text .link1 a {
   text-decoration: none;
+}
+
+.t2Text .link1 a:link {
+  color: #00F7FF;
+}
+
+.t2Text .link1 a:visited {
+  color: #00F7FF;
 }
 
 .t2Text .link1 a:hover {
@@ -572,6 +588,14 @@ header .block1 .portrait {
   text-decoration: none;
 }
 
+.t3Text a:link {
+  color: #00F7FF;
+}
+
+.t3Text a:visited {
+  color: #00F7FF;
+}
+
 .t3Text a:hover {
   font-weight: bold;
   color: blue;
@@ -594,10 +618,28 @@ header .block1 .portrait {
   width: 100000%;
   height: 100000%;
   left: 50%;
-  top: 50%;
+  top: 0%;
   transform: translate3d(-49%, -40%, 0px) rotate(6deg);
   background-image: url("/Source/pc_bg1.png");
   background-repeat: repeat;
+}
+
+#back1 {
+  left: 0%;
+  top: 20%;
+  display: none;
+}
+
+#back2 {
+  left: -30%;
+  top: 40%;
+  display: none;
+}
+
+#back3 {
+  left: -70%;
+  top: 60%;
+  display: none;
 }
 
 .BackPic {
