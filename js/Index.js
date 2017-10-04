@@ -121,7 +121,10 @@ contactContainer= $('.contactContainer'); subElements= $('subelements');
 overElements=$('.overelements'); element= $('.elements');
 ccTop = contactContainer.offset().top;
 scrollTarget = ccTop - winHeight;
-
+if(isMobile){
+	var temp9 = $('.contactlist').height();
+	$('.contactlist').css("height",""+(temp9+60) +"px");
+}
 $(window).scroll(function(){
 		winHeight = $(window).height();
 		var wScroll = $(this).scrollTop();
@@ -129,11 +132,7 @@ $(window).scroll(function(){
 		//CONTACTS
 		ccTop = contactContainer.offset().top;
 		elementsHeight =element.height();
-		if(isMobile){
-			scrollTarget = (ccTop - winHeight) -60;//+ element.height();
-		}else{
-			scrollTarget = (ccTop - winHeight);//+ element.height();
-		}
+		scrollTarget = (ccTop - winHeight);//+ element.height();
 		if(wScroll>scrollTarget){
 			var temp = wScroll-scrollTarget;
 			window.requestAnimationFrame(function(){
